@@ -40,7 +40,7 @@ class PlacesManager: ObservableObject {
     /// An array of `Place` objects, published for SwiftUI to reactively update the UI.
     @Published var places: [Place] = []
     /// The API key used for authenticating requests with the Google Places API.
-    let apiKey = "AIzaSyChWnp_Q7x4S9e32n2kte9KlEpGl1kFOLs" // Replace with your actual API Key
+    let apiKey = "AIzaSyChWnp_Q7x4S9e32n2kte9KlEpGl1kFOLs" 
     
     /// Creates a URL for performing a text-based search for places.
         ///

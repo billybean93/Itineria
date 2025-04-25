@@ -11,6 +11,7 @@
 		26A2944B2CBB6ECE00D636C2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F2B8102CB9AE4900C914A5 /* SwiftUI.framework */; };
 		26A294562CBB6ECF00D636C2 /* ItineriaWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 26A294492CBB6ECE00D636C2 /* ItineriaWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		26A56FE82CB15FAA00934648 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A56FE72CB15FAA00934648 /* Place.swift */; };
+		26CBFB262DBB9C1B0055F1D1 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26CBFB252DBB9C120055F1D1 /* Secrets.plist */; };
 		26F2B7932CB99DEF00C914A5 /* NearbyPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F2B7922CB99DEF00C914A5 /* NearbyPlace.swift */; };
 		26F2B79E2CB99F2100C914A5 /* CarouselNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F2B79D2CB99F2100C914A5 /* CarouselNewView.swift */; };
 		26F2B7A02CB99F2E00C914A5 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F2B79F2CB99F2E00C914A5 /* CarouselView.swift */; };
@@ -77,6 +78,7 @@
 /* Begin PBXFileReference section */
 		26A294492CBB6ECE00D636C2 /* ItineriaWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ItineriaWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A56FE72CB15FAA00934648 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		26CBFB252DBB9C120055F1D1 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Secrets.plist; sourceTree = "<group>"; };
 		26F2B7922CB99DEF00C914A5 /* NearbyPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyPlace.swift; sourceTree = "<group>"; };
 		26F2B79D2CB99F2100C914A5 /* CarouselNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselNewView.swift; sourceTree = "<group>"; };
 		26F2B79F2CB99F2E00C914A5 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 		65EAEC582CA0F782009BF826 /* a2-S3909873-S3915181 */ = {
 			isa = PBXGroup;
 			children = (
+				26CBFB252DBB9C120055F1D1 /* Secrets.plist */,
 				26F2B7942CB99E4400C914A5 /* View Model */,
 				65EAEC762CA0FD78009BF826 /* Model */,
 				65EAEC692CA0F923009BF826 /* View */,
@@ -378,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65EAEC632CA0F783009BF826 /* Preview Assets.xcassets in Resources */,
+				26CBFB262DBB9C1B0055F1D1 /* Secrets.plist in Resources */,
 				65EAEC602CA0F783009BF826 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

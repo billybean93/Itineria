@@ -1,0 +1,14 @@
+# Ignore secret API keys
+secrets.plist
+
+# Ignore user-specific files
+*.xcuserdata
+*.xcuserstate
+
+# Build and cache folders
+build/
+DerivedData/
+
+# Swift Package Manager
+.build/
+Packages/
