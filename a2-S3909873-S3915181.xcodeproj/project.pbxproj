@@ -78,7 +78,7 @@
 /* Begin PBXFileReference section */
 		26A294492CBB6ECE00D636C2 /* ItineriaWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ItineriaWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A56FE72CB15FAA00934648 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
-		26CBFB252DBB9C120055F1D1 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Secrets.plist; sourceTree = "<group>"; };
+		26CBFB252DBB9C120055F1D1 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 		26F2B7922CB99DEF00C914A5 /* NearbyPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyPlace.swift; sourceTree = "<group>"; };
 		26F2B79D2CB99F2100C914A5 /* CarouselNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselNewView.swift; sourceTree = "<group>"; };
 		26F2B79F2CB99F2E00C914A5 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
@@ -170,6 +170,7 @@
 		65EAEC4D2CA0F782009BF826 = {
 			isa = PBXGroup;
 			children = (
+				26CBFB252DBB9C120055F1D1 /* Secrets.plist */,
 				65EAEC582CA0F782009BF826 /* a2-S3909873-S3915181 */,
 				65ECEDFA2CB786B700221DB0 /* a2-S3909873-S3915181Tests */,
 				26A2944C2CBB6ECE00D636C2 /* ItineriaWidget */,
@@ -191,7 +192,6 @@
 		65EAEC582CA0F782009BF826 /* a2-S3909873-S3915181 */ = {
 			isa = PBXGroup;
 			children = (
-				26CBFB252DBB9C120055F1D1 /* Secrets.plist */,
 				26F2B7942CB99E4400C914A5 /* View Model */,
 				65EAEC762CA0FD78009BF826 /* Model */,
 				65EAEC692CA0F923009BF826 /* View */,
